@@ -11,12 +11,11 @@
     <groupId>com.task</groupId>
     <artifactId>DevopsTask</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <url>http://maven.apache.org</url>
     <name>DevopsTask</name>
     <description>DevopsTask</description>
     <properties>
         <java.version>1.8</java.version>
-        <maven.versoin>3.8.6</maven.versoin>
+
     </properties>
     <dependencies>
 
