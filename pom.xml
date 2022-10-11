@@ -16,14 +16,10 @@
     <description>DevopsTask</description>
     <properties>
         <java.version>1.8</java.version>
+        <maven.versoin>3.8.6</maven.versoin>
     </properties>
     <dependencies>
-        <dependency>
-        <groupId>org.apache.maven</groupId>
-        <artifactId>maven</artifactId>
-        <version>3.8.1</version>
-        <scope>test</scope>
-        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
