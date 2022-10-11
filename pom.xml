@@ -11,12 +11,20 @@
     <groupId>com.task</groupId>
     <artifactId>DevopsTask</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <url>http://maven.apache.org</url>
     <name>DevopsTask</name>
     <description>DevopsTask</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <dependency>
+        <groupId>org.apache.maven</groupId>
+        <artifactId>maven</artifactId>
+        <version>3.0</version>
+        <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -54,22 +62,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.3.0</version>
-                <executions>
-                <execution>
-                    <id>enforce-maven-3</id>
-                    <goals>
-                        <goal>enforce</goal>
-                    </goals>
-                    <configuration>
-                        <rules>
-                            <requireMavenVersion>
-                                <version>3.8.6</version>
-                            </requireMavenVersion>
-                        </rules>
-                        <fail>true</fail>
-                    </configuration>
-                </execution>
-                </executions>
+
             </plugin>
         </plugins>
     </build>
