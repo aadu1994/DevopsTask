@@ -14,7 +14,7 @@ public class DevopsTaskApplication {
     }
 
     @GetMapping("/hello")
-    public String sayHello(@RequestParam(value = "myName", defaultValue = "World Aadil bla bla bla, new update, new update 2,, new update 3") String name) {
+    public String sayHello(@RequestParam(value = "myName", defaultValue = "World,Aadil Just ran this on kubernetes!!") String name) {
         return String.format("Hello %s!", name);
     }
 
