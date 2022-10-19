@@ -32,6 +32,8 @@ spec:
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
+          Ports:
+            - containerPort: 8080
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
