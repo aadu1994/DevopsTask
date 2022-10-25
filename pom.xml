@@ -12,7 +12,7 @@
     <groupId>com.task</groupId>
     <artifactId>DevopsTask</artifactId>
    <!-- <version>0.0.1-SNAPSHOT</version> -->
-    <version>${newVersion}</version>
+    <version>0.0.2</version>
     <name>DevopsTask</name>
     <description>DevopsTask</description>
 
