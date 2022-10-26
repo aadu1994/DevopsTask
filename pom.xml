@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.task</groupId>
     <artifactId>DevopsTask</artifactId>
-    <version>7.0.0</version>
+    <version>7.0.2</version>
   <!-- <version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.nextIncrementalVersion}</version> -->
     <name>DevopsTask</name>
     <description>DevopsTask</description>
